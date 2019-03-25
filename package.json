@@ -36,7 +36,7 @@
       "targetDirectory": "lib",
       "builds": {
         "src": {"digest": false, "minify": false},
-        "min": {"digest": false, "minify": true, "tag": "suffix", "sourceMap": "src"}
+        "min": {"digest": false, "minify": false, "tag": "suffix", "sourceMap": "src"}
       },
       "targets": {
         "canopy": [ "canopy.js",
